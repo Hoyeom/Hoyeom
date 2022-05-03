@@ -7,6 +7,7 @@
 - 산업기능요원 준비중
 - 02년생 (으윽...월드컵 질문은 싫어요)
 - 이메일 : [korehdrb@gmail.com](korehdrb@gmail.com)
+- [UNITY Learn](https://learn.unity.com/u/6016cfc7edbc2a08db00c5b0?tab=profile)
 
 🐎 학습 중
 ---------
