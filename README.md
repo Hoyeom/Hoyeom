@@ -13,7 +13,7 @@
 🐎 학습 중
 ---------
 
-<img src = "https://img.shields.io/badge/-C%23%20-black?style=flat&logo=C%20Sharp" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/unity%20-%23000000.svg?&style=flat&logo=unity&logoColor=white" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-UniRx-black?style=flat&logo=unity" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-DOTween-black?style=flat&logo=unity" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-게임 기획-black?style=flat&" style="height : auto; margin-left : 2px; margin-right : 2px;"/>
+<img src = "https://img.shields.io/badge/-C%23%20-black?style=flat&logo=C%20Sharp" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/Unity%20-%23000000.svg?&style=flat&logo=unity&logoColor=white" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-UniRx-black?style=flat&logo=unity" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-DOTween-black?style=flat&logo=unity" style="height : auto; margin-left : 2px; margin-right : 2px;"/><img src="https://img.shields.io/badge/-게임 기획-black?style=flat&" style="height : auto; margin-left : 2px; margin-right : 2px;"/>
 
 ![Hoyeom's Github stats](https://github-readme-stats.vercel.app/api?username=Hoyeom&show_icons=true&theme=radical)
 
@@ -24,24 +24,35 @@
 <details>
 <summary>자료형</summary>
 
-|   자료형    |              최소값              |              최대값              |            크기            | 부호  |
-|:--------:|:-----------------------------:|:-----------------------------:|:------------------------:|:---:|
-|  object  | Base type of all other types. | Base type of all other types. |                          |  △  |
-|   byte   |               0               |              255              |           8bit           |  X  |
-|  sbyte   |             -128              |              127              |           8bit           |  O  |
-|  short   |            -32,768            |            32,767             |          16bit           |  O  |
-|  ushort  |               0               |            65,535             |          16bit           |  X  |
-|   int    |        -2,147,483,648         |         2,147,483,647         |          32bit           |  O  |
-|   uint   |               0               |         4,294,967,295         |          32bit           |  X  |
-|   long   |  -9,223,372,036,854,775,808   |   9,223,372,036,854,775,807   |          64bit           |  O  |
-|  ulong   |               0               |  18,446,744,073,709,551,615   |          64bit           |  X  |
-|  float   |         -3.402823e38          |          3.402823e38          |          32bit           |  O  |
-|  double  |     -1.79769313486232e308     |     1.79769313486232e308      |          64bit           |  O  |
-| decimal  |     (+ or -)1.0 x 10e-28      |          7.9 x 10e28          |          128bit          |  O  |
-|   bool   |             False             |             True              |           8bit           |  X  |
-|   char   |      Any valid character      |      Any valid character      |          16bit           |  X  |
-|  string  |                               |                               |                          |  X  |
-| DateTime |       0:00:00am 1/1/01        |     11:59:59pm 12/31/9999     | Represents date and time |  X  |
+|   자료형    |              최소값              |              최대값              |   크기   | 부호  |
+|:--------:|:-----------------------------:|:-----------------------------:|:------:|:---:|
+|  object  | Base type of all other types. | Base type of all other types. |        |  △  |
+|   byte   |               0               |              255              |  8bit  |  X  |
+|  sbyte   |             -128              |              127              |  8bit  |  O  |
+|  short   |            -32,768            |            32,767             | 16bit  |  O  |
+|  ushort  |               0               |            65,535             | 16bit  |  X  |
+|   int    |        -2,147,483,648         |         2,147,483,647         | 32bit  |  O  |
+|   uint   |               0               |         4,294,967,295         | 32bit  |  X  |
+|   long   |  -9,223,372,036,854,775,808   |   9,223,372,036,854,775,807   | 64bit  |  O  |
+|  ulong   |               0               |  18,446,744,073,709,551,615   | 64bit  |  X  |
+|  float   |         -3.402823e38          |          3.402823e38          | 32bit  |  O  |
+|  double  |     -1.79769313486232e308     |     1.79769313486232e308      | 64bit  |  O  |
+| decimal  |     (+ or -)1.0 x 10e-28      |          7.9 x 10e28          | 128bit |  O  |
+|   bool   |             False             |             True              |  8bit  |  X  |
+|   char   |      Any valid character      |      Any valid character      | 16bit  |  X  |
+|  string  |                               |                               |        |  X  |
+| DateTime |       0:00:00am 1/1/01        |     11:59:59pm 12/31/9999     |        |  X  |
+
+</details>
+
+<details>
+<summary>자료 구조</summary>
+
+| 자료 구조  |               설명                |
+|:------:|:-------------------------------:|
+|   배열   |           크기가 정적인 배열            |
+| 동적 배열  |         중간 삽입 삭제가 힘든 배열         |
+| 연결 리스트 | 중간 삽입 삭제가 쉽지만 특정 값에 바로 접근 하기 힘듦 |
 
 </details>
 
