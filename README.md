@@ -183,3 +183,81 @@
 * [DOTween](http://dotween.demigiant.com/index.php)
 
 </details>
+
+### UnityWave
+
+#### TRACK 1
+
+<details>
+<summary> 다양한 사례로 알아보는 유니티 프로젝트 최적화 </summary>
+
+* CPU 비용 최적화
+  * UGUI.Rendering.UpdateBatches() 문제 사례
+    * 원인
+      * Button의 좌표가 변경되면 모든 UI를 재배치 하기 떄문에 낭비되는 비용 발생
+    * 해결 방법
+      * 동적인 UI 요소는 Canvas를 따로 분리
+  * GC Allocation 의한 히칭 문제 사례
+    * 원인
+      * child.name 참조시 GC.Alloc에 의한 메모리 할당 발생
+    * 해결     
+      * Player -> Incremental GC 활성화
+    * Project Auditor를 통해 원인 찾기
+* GPU 비용 최적화
+  * 의도하지 않은 전체화면 렌더링 비용 문제 사례
+    * Xcode Frame Debugger 에서 프로파일링
+    * 원인
+      * 원본 이미지의 사이즈가 실제 이미지보다 매우 큰 상황
+    * 해결방법
+      * 실제 사용 이미지 크기에 맞춰 사이즈를 줄임
+* 메모리 & 에셋 비용 최적화
+  * 에셋번들에서 파일에 중복해서 들어는 문제 사례
+    * Memory Profiler에서 메모리 Capture하는 방법
+      * Profiler 에서 Memory 탭 클릭한 상태에서 Open Memory Profiler 출력
+    * 원인
+      * 여러 개의 에셋번들이 에셋번들에 속하지 않은 에셋을 참조
+    * 해결
+      * 에셋 번들이 중복으로 참조하는 에셋을 미리 에셋번들로 만듬
+  * GC Allocation에 의한 메모리 단편화 사례
+    * 원인
+      * 다양한 사이즈의 GC Alloc 할당/해제가 일어나면서 Managed Heap 공간에 할당할 수 없는 영역이 늘어남
+    * 해결
+      * Project Auditor를 통해 GC Alloc에 일어나는 위치를 찾아 코드를 수정하여 해결
+* 정리
+  * CPU
+    * Unity Profiler를 통해 프레임 안에서 비용이 큰 원인 찾아서 제거
+    * 정적 분석 도구 Project Auditor를 통해 확인된 코드를 점검하고 비용이 발생할 수 있는 부분 제거.
+  * GPU
+    * Native Profiler를 통해 전체화면으로 렌더링할 필요가 없는 오브젝트들을 찾고 사이즈를 조정하여 Fragment 렌더링 비용 줄임
+  * 메모리 & 에셋
+    * Memory Profiler를 통해 메모리 비용 점검 단편화 영역 커지지 않도록 원인을 찾아서 제거
+    * 에셋 종속성에 따라 여러 개의 에셋 번들에 중복해서 포함되는 에셋을 점검하고 문제가 확인되면 수정
+</details>
+
+<details>
+<summary> Gigaya 심층 분석: 몰입감 넘치는 월드 제작하기 </summary>
+
+
+
+</details>
+
+<details>
+<summary> 승리의 여신: 니케 - 스파인 캐릭터 헤어&신체 물리 구현 </summary>
+
+
+
+</details>
+
+<details>
+<summary> 블록체인 기술을 활용한 게임들과 NFT 적용 트렌드 </summary>
+
+
+
+</details>
+
+<details>
+<summary> 유니티 데모 팀의 최신 플래그십 시네마틱 데모 “에너미즈(Enemies)” 제작 스토리 </summary>
+
+
+
+</details>
