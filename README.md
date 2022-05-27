@@ -5,12 +5,10 @@
 🔎 정보
 ------
 
-- 키 이슈로 4급 판정
 - 산업기능요원 준비중
 - 02년생
 - 이메일 : [korehdrb@gmail.com](korehdrb@gmail.com)
 - [Unity Learn](https://learn.unity.com/u/6016cfc7edbc2a08db00c5b0?tab=profile)
-- 인프런에서 공부중 !!!
 
 🐎 학습 중
 ---------
