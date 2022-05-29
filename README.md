@@ -5,7 +5,7 @@
 🔎 정보
 ------
 
-- 2002년생
+- 2002년생 4급(키)
 - [포토폴리오](https://drive.google.com/drive/folders/1l-CSpGe1R6aA_Kqtv_YR1_xi0fa0-tFl?usp=sharing)
 - 이메일 : [korehdrb@gmail.com](korehdrb@gmail.com)
 - [Unity Learn](https://learn.unity.com/u/6016cfc7edbc2a08db00c5b0?tab=profile)
