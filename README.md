@@ -1,11 +1,10 @@
-[신입/C#] 이해하고 받아들이는 프로그래머 이동규 입니다
+[C#] 이해하고 받아들이는 프로그래머 이동규 입니다
 ========================================
 
 
 🔎 정보
 ------
 
-- 2002년생 산업기능요원(4급) 지원 예정
 - [포토폴리오](https://drive.google.com/drive/folders/1l-CSpGe1R6aA_Kqtv_YR1_xi0fa0-tFl?usp=sharing)
 - 이메일 : [korehdrb@gmail.com](korehdrb@gmail.com)
 - [Unity Learn](https://learn.unity.com/u/6016cfc7edbc2a08db00c5b0?tab=profile)
