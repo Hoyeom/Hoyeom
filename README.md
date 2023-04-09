@@ -5,9 +5,8 @@
 🔎 정보
 ------
 
-- [포토폴리오](https://drive.google.com/drive/folders/1l-CSpGe1R6aA_Kqtv_YR1_xi0fa0-tFl?usp=sharing)
-- 이메일 : [korehdrb@gmail.com](korehdrb@gmail.com)
-- [Unity Learn](https://learn.unity.com/u/6016cfc7edbc2a08db00c5b0?tab=profile)
+게임 클라이언트 프로그래머 재직 중
+- 2022.7.14 ~ 현재
 
 
 🐎 학습 중
